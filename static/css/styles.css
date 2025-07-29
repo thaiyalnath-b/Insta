@@ -12,7 +12,8 @@ body {
     header {
         section#h {
             display: flex;
-
+            justify-content: space-between;
+           padding-top: 5px;
             div {
                 h1 {
                     color: white;
@@ -20,17 +21,23 @@ body {
                 }
             }
 
+
             div {
                 display: flex;
                 color: white;
 
                 span.th {
-                    margin-left: 110px;
                     margin-right: 25px;
+                    font-size: 22px;
                 }
 
                 span.pl {
                     margin-right: 25px;
+                    font-size: 22px;
+                }
+                span.li {
+                    margin-right: 10px;
+                    font-size: 22px;
                 }
 
             }
