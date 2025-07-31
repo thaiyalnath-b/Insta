@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    width: 400px;
+    border: 2px solid white;
+
+    header {
+        color: white;
+
+        section#heading {
+            height: 30px;
+            padding-left: 8px;
+            padding-right: 10px;
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+
+                span.thread, .plus {
+                    padding-right: 20px;
+                    font-size: 20px;
+                }
+
+                span.list {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    main {
+        section#profile {
+            display: flex;
+            padding-top: 15px;
+
+            div.photo {
+                img {
+                    padding-left: 10px;
+                    width: 100px;
+                    height: 90px;
+                }
+            }
+
+            div.name {
+                padding-left: 30px;
+                color: white;
+
+                div.follower-details {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    padding-left: 3px;
+
+                    div {
+                        padding-right: 35px;
+                    }
+                }
+            }
+        }
+
+        section#quote {
+            color: white;
+            padding-left: 5px;
+
+            div.song {
+                padding-top: 6px;
+            }
+        }
+
+        section#share {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 3px;
+            color: white;
+            padding-right: 10px;
+            padding-top: 10px;
+            height: 40px;
+
+            div.edit-button, .share-button {
+                display: flex;
+                border: 2px solid white;
+                width: 43%;
+                padding-left: 42px;
+                border-radius: 5px;
+                padding-top: 3px;
+            }
+
+            div.user-icon {
+                display: flex;
+                width: 40px;
+                padding-left: 10px;
+                border: 2px solid white;
+                border-radius: 5px;
+                padding-top: 3px;
+            }
+        }
+
+        section#highlights {
+            padding-top: 10px;
+            display: flex;
+            padding-left: 8px;
+            color: white;
+
+            div.school, .team {
+                padding-right: 23px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                }
+
+                p {
+                    padding-left: 5px;
+                }
+
+                div{
+                    p {
+                        padding-left: 18px;
+                    }
+                }
+            }
+
+            div.new {
+                color: white;
+                font-size: 75px;
+
+                p {
+                    font-size: 15px;
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        section#reels {
+            padding-top: 20px;
+            padding-left: 50px;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                padding-right: 50px;
+                color: white;
+            }
+        }
+
+        section#reels1 {
+            div.posts1 {
+                padding-top: 10px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0; 
+        section#footer {
+            color: white;
+            padding-top: 10px;
+            height: 50px;
+            align-items: center;
+            div.bottom {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-size: 20px;
+            }
+        }
+    }
+}
